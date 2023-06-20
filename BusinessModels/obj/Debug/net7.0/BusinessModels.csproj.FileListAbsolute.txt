@@ -1,0 +1,12 @@
+C:\Users\Sujit Sahukar\Desktop\InternalApp\BusinessModels\bin\Debug\net7.0\BusinessModels.deps.json
+C:\Users\Sujit Sahukar\Desktop\InternalApp\BusinessModels\bin\Debug\net7.0\BusinessModels.dll
+C:\Users\Sujit Sahukar\Desktop\InternalApp\BusinessModels\bin\Debug\net7.0\BusinessModels.pdb
+C:\Users\Sujit Sahukar\Desktop\InternalApp\BusinessModels\obj\Debug\net7.0\BusinessModels.csproj.AssemblyReference.cache
+C:\Users\Sujit Sahukar\Desktop\InternalApp\BusinessModels\obj\Debug\net7.0\BusinessModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sujit Sahukar\Desktop\InternalApp\BusinessModels\obj\Debug\net7.0\BusinessModels.AssemblyInfoInputs.cache
+C:\Users\Sujit Sahukar\Desktop\InternalApp\BusinessModels\obj\Debug\net7.0\BusinessModels.AssemblyInfo.cs
+C:\Users\Sujit Sahukar\Desktop\InternalApp\BusinessModels\obj\Debug\net7.0\BusinessModels.csproj.CoreCompileInputs.cache
+C:\Users\Sujit Sahukar\Desktop\InternalApp\BusinessModels\obj\Debug\net7.0\BusinessModels.dll
+C:\Users\Sujit Sahukar\Desktop\InternalApp\BusinessModels\obj\Debug\net7.0\refint\BusinessModels.dll
+C:\Users\Sujit Sahukar\Desktop\InternalApp\BusinessModels\obj\Debug\net7.0\BusinessModels.pdb
+C:\Users\Sujit Sahukar\Desktop\InternalApp\BusinessModels\obj\Debug\net7.0\ref\BusinessModels.dll
