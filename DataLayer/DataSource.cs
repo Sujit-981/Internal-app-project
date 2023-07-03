@@ -1,4 +1,4 @@
-﻿using BusinessModels;
+﻿using DataModels;
 
 namespace DataLayer
 {
@@ -8,7 +8,7 @@ namespace DataLayer
     internal class DataSource
     {
 
-        public static List<Users> userList = new List<Users>();
+        public static List<User> userList = new List<User>();
 
     }
 }

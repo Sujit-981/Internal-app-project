@@ -16,13 +16,24 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "BusinessModels": "1.0.0"
+          "BusinessModels": "1.0.0",
+          "DataModels": "1.0.0"
         },
         "compile": {
           "bin/placeholder/DataLayer.dll": {}
         },
         "runtime": {
           "bin/placeholder/DataLayer.dll": {}
+        }
+      },
+      "DataModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/DataModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataModels.dll": {}
         }
       }
     }
@@ -37,6 +48,11 @@
       "type": "project",
       "path": "../DataLayer/DataLayer.csproj",
       "msbuildProject": "../DataLayer/DataLayer.csproj"
+    },
+    "DataModels/1.0.0": {
+      "type": "project",
+      "path": "../DataModels/DataModels.csproj",
+      "msbuildProject": "../DataModels/DataModels.csproj"
     }
   },
   "projectFileDependencyGroups": {

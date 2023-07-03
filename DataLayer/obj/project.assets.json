@@ -11,6 +11,16 @@
         "runtime": {
           "bin/placeholder/BusinessModels.dll": {}
         }
+      },
+      "DataModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/DataModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataModels.dll": {}
+        }
       }
     }
   },
@@ -19,11 +29,17 @@
       "type": "project",
       "path": "../BusinessModels/BusinessModels.csproj",
       "msbuildProject": "../BusinessModels/BusinessModels.csproj"
+    },
+    "DataModels/1.0.0": {
+      "type": "project",
+      "path": "../DataModels/DataModels.csproj",
+      "msbuildProject": "../DataModels/DataModels.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "BusinessModels >= 1.0.0"
+      "BusinessModels >= 1.0.0",
+      "DataModels >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -55,6 +71,9 @@
           "projectReferences": {
             "C:\\Users\\Sujit Sahukar\\Desktop\\InternalApp\\BusinessModels\\BusinessModels.csproj": {
               "projectPath": "C:\\Users\\Sujit Sahukar\\Desktop\\InternalApp\\BusinessModels\\BusinessModels.csproj"
+            },
+            "C:\\Users\\Sujit Sahukar\\Desktop\\InternalApp\\DataModels\\DataModels.csproj": {
+              "projectPath": "C:\\Users\\Sujit Sahukar\\Desktop\\InternalApp\\DataModels\\DataModels.csproj"
             }
           }
         }

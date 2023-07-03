@@ -19,7 +19,7 @@ namespace ConsoleApp
 
             Validations validate = new Validations();
 
-            Users user = new Users();
+            User user = new User();
 
             while (true)
             {
@@ -182,7 +182,7 @@ namespace ConsoleApp
 
             Validations validate = new Validations();
 
-            Users newDetails = new Users();
+            User newDetails = new User();
 
             Console.Write(Literals.forgotPasswordUserName);
             newDetails.userName = Console.ReadLine();

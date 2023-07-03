@@ -1,4 +1,4 @@
-﻿using BusinessModels;
+﻿
 
 namespace DataLayer
 {
@@ -12,18 +12,18 @@ namespace DataLayer
         /// This method is used to store data in the list
         /// </summary>
         /// <param name="user"></param>
-        public void InsertUser(Users user)
+        public void InsertUser(BusinessModels.User user)
         {
-            DataSource.userList.Add(user);
+            DataSource.userList.Add(new DataModels.User { userName = user.userName, emailId = user.emailId, phoneNo = user.phoneNo, password = user.password, confirmPassword = user.confirmPassword});
         }
 
         /// <summary>
         /// this method will update the password
         /// </summary>
         /// <param name="newDetails"></param>
-        public void UpdateCredentials(Users newDetails)
+        public void UpdateCredentials(BusinessModels.User newDetails)
         {
-            foreach (Users user in DataSource.userList)
+            foreach (DataModels.User user in DataSource.userList)                       // this line might be a mistake
             {
                 if (user.userName == newDetails.userName && user.emailId == newDetails.emailId && user.phoneNo == newDetails.phoneNo)
                 {
@@ -42,7 +42,7 @@ namespace DataLayer
         /// <returns></returns>
         public bool IsRegisterDataExists(string emailId, string phoneNo)
         {
-            Users user = DataSource.userList.Find(check => check.emailId == emailId && check.phoneNo == phoneNo);
+            DataModels.User user = DataSource.userList.Find(check => check.emailId == emailId && check.phoneNo == phoneNo);
 
             if (user != null)
             {
@@ -59,7 +59,7 @@ namespace DataLayer
         /// <returns></returns>
         public bool IsLoginDataExists(string emailId, string password)
         {
-            Users user = DataSource.userList.Find(check => check.emailId == emailId && check.password == password);
+            DataModels.User user = DataSource.userList.Find(check => check.emailId == emailId && check.password == password);
 
             if(user != null)
             {
@@ -77,7 +77,7 @@ namespace DataLayer
         /// <returns></returns>
         public bool IsUpdateCredentialsExists(string emailId, string userName, string phoneNo)
         {
-            Users user = DataSource.userList.Find(check => check.emailId == emailId && check.userName == userName && check.phoneNo == phoneNo);
+            DataModels.User user = DataSource.userList.Find(check => check.emailId == emailId && check.userName == userName && check.phoneNo == phoneNo);
 
             if (user != null)
             {

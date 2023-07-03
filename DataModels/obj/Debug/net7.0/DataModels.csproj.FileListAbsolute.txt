@@ -1,0 +1,12 @@
+C:\Users\Sujit Sahukar\Desktop\InternalApp\DataModels\bin\Debug\net7.0\DataModels.deps.json
+C:\Users\Sujit Sahukar\Desktop\InternalApp\DataModels\bin\Debug\net7.0\DataModels.dll
+C:\Users\Sujit Sahukar\Desktop\InternalApp\DataModels\bin\Debug\net7.0\DataModels.pdb
+C:\Users\Sujit Sahukar\Desktop\InternalApp\DataModels\obj\Debug\net7.0\DataModels.csproj.AssemblyReference.cache
+C:\Users\Sujit Sahukar\Desktop\InternalApp\DataModels\obj\Debug\net7.0\DataModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sujit Sahukar\Desktop\InternalApp\DataModels\obj\Debug\net7.0\DataModels.AssemblyInfoInputs.cache
+C:\Users\Sujit Sahukar\Desktop\InternalApp\DataModels\obj\Debug\net7.0\DataModels.AssemblyInfo.cs
+C:\Users\Sujit Sahukar\Desktop\InternalApp\DataModels\obj\Debug\net7.0\DataModels.csproj.CoreCompileInputs.cache
+C:\Users\Sujit Sahukar\Desktop\InternalApp\DataModels\obj\Debug\net7.0\DataModels.dll
+C:\Users\Sujit Sahukar\Desktop\InternalApp\DataModels\obj\Debug\net7.0\refint\DataModels.dll
+C:\Users\Sujit Sahukar\Desktop\InternalApp\DataModels\obj\Debug\net7.0\DataModels.pdb
+C:\Users\Sujit Sahukar\Desktop\InternalApp\DataModels\obj\Debug\net7.0\ref\DataModels.dll

@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{DC5D5CDB-BFA8-49F9-AF3B-AFD9ACA18D52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{DC5D5CDB-BFA8-49F9-AF3B-AFD9ACA18D52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{6812E8E9-54A9-427B-87EB-4E631D920719}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{6812E8E9-54A9-427B-87EB-4E631D920719}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessModels", "BusinessModels\BusinessModels.csproj", "{3915F378-FDAF-4228-AA00-A2AA6909F096}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessModels", "BusinessModels\BusinessModels.csproj", "{3915F378-FDAF-4228-AA00-A2AA6909F096}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{32F30AE9-4050-4704-9EC3-0E635805A63A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataLayer", "DataLayer\DataLayer.csproj", "{32F30AE9-4050-4704-9EC3-0E635805A63A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataModels", "DataModels\DataModels.csproj", "{D6F8A382-BED9-4F5F-9568-173573ADEACC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{32F30AE9-4050-4704-9EC3-0E635805A63A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32F30AE9-4050-4704-9EC3-0E635805A63A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32F30AE9-4050-4704-9EC3-0E635805A63A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6F8A382-BED9-4F5F-9568-173573ADEACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6F8A382-BED9-4F5F-9568-173573ADEACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6F8A382-BED9-4F5F-9568-173573ADEACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6F8A382-BED9-4F5F-9568-173573ADEACC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

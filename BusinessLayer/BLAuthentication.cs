@@ -21,7 +21,7 @@ namespace BusinessLayer
         /// this method will send data to datalayer for registration
         /// </summary>
         /// <param name="user"></param>
-        public void RegisterUser(Users user)
+        public void RegisterUser(User user)
         {
             BLAuthentication bLAuth = new BLAuthentication();
             IDLAuthentication iDLAuth = dataFactoryObj.GetDLAuthObj();
@@ -34,7 +34,7 @@ namespace BusinessLayer
         /// </summary>
         /// <param name="newDetails"></param>
         /// <returns></returns>
-        public bool ForgotPassword(Users newDetails)
+        public bool ForgotPassword(User newDetails)
         {
             IDLAuthentication iDLAuth = dataFactoryObj.GetDLAuthObj();
 
@@ -82,8 +82,6 @@ namespace BusinessLayer
             { 
                 return false; 
             }
-
         }
-
     }
 }
