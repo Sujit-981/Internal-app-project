@@ -23,7 +23,7 @@ namespace DataLayer
         /// <param name="newDetails"></param>
         public void UpdateCredentials(BusinessModels.User newDetails)
         {
-            foreach (DataModels.User user in DataSource.userList)                       // this line might be a mistake
+            foreach (DataModels.User user in DataSource.userList)
             {
                 if (user.userName == newDetails.userName && user.emailId == newDetails.emailId && user.phoneNo == newDetails.phoneNo)
                 {
