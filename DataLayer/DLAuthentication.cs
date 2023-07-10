@@ -1,4 +1,5 @@
-﻿
+﻿using AutoMapper;
+
 
 namespace DataLayer
 {
@@ -7,14 +8,32 @@ namespace DataLayer
     /// </summary>
     internal class DLAuthentication : IDLAuthentication
     {
-
         /// <summary>
-        /// This method is used to store data in the list
+        /// This will convert the business model user to data model user and vice versa.
+        /// </summary>
+        /// <typeparam name="T1"></typeparam>
+        /// <typeparam name="T2"></typeparam>
+        /// <param name="model"></param>
+        /// <returns></returns>
+        public dynamic Converter<T1, T2>(dynamic model) where T1 : new() where T2 : new()
+        {
+            var config = new MapperConfiguration(cfg =>
+            {
+                cfg.CreateMap<T1, T2>();
+            });
+
+            var mapper = new Mapper(config);
+            return mapper.Map<T1, T2>(model);
+        }
+        
+        /// <summary>
+        /// This method is used to store data in the list 
         /// </summary>
         /// <param name="user"></param>
         public void InsertUser(BusinessModels.User user)
         {
-            DataSource.userList.Add(new DataModels.User { userName = user.userName, emailId = user.emailId, phoneNo = user.phoneNo, password = user.password, confirmPassword = user.confirmPassword});
+            DLAuthentication DLAuth = new DLAuthentication();
+            DataSource.userList.Add(DLAuth.Converter<BusinessModels.User, DataModels.User>(user));
         }
 
         /// <summary>
@@ -84,6 +103,24 @@ namespace DataLayer
                 return true;
             }
             return false;
+        }
+
+        /// <summary>
+        /// This method will return the user details if it exists
+        /// </summary>
+        /// <param name="userName"></param>
+        /// <param name="password"></param>
+        /// <returns></returns>
+        public BusinessModels.User GetUserData(string userName, string password)
+        {
+            DataModels.User user = DataSource.userList.Find(check => check.userName == userName && check.password == password);
+                        
+            if (user != null)
+            {
+                DLAuthentication DLAuth = new DLAuthentication();
+                return DLAuth.Converter<DataModels.User, BusinessModels.User>(user);
+            }
+            return null;
         }
     }
 }

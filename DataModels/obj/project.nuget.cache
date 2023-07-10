@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "N/b2qwFHVzzgjC+by/CkNRVyxXoqB7T+E5uv7dqokAYQjL/d1/VQYEMtjaqITdSFhAY2Uohv2PnhIXDh30ou5g==",
+  "dgSpecHash": "1fjuDWcrE3zpenueN8y20As0ehYwGPj4fjT5N62AhdnH9mdIE0xWQdtaMcIyM7rQZbAYtlX/WxJa9VDrcwzwNw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sujit Sahukar\\Desktop\\InternalApp\\DataModels\\DataModels.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Sujit Sahukar\\Desktop\\InternalApp\\Internal-app-project\\DataModels\\DataModels.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sujit Sahukar\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Sujit Sahukar\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

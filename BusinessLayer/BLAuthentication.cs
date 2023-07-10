@@ -9,11 +9,6 @@ namespace BusinessLayer
     /// </summary>
     public class BLAuthentication
     {
-        /*public DataFactory dataFactoryObj;
-        public BLAuthentication()
-        {
-            DataFactory dataFactoryObj = new DataFactory();
-        }*/
 
         DataFactory dataFactoryObj = new DataFactory();
 
@@ -82,6 +77,21 @@ namespace BusinessLayer
             { 
                 return false; 
             }
+        }
+        /// <summary>
+        /// This method will call datalayer method which will return business model user object
+        /// </summary>
+        /// <param name="user"></param>
+        /// <returns></returns>
+        public User GetUserData(User user)
+        {
+            IDLAuthentication iDLAuth = dataFactoryObj.GetDLAuthObj();
+            User userData = iDLAuth.GetUserData(user.userName, user.password);
+            if (userData == null)
+            {
+                return null;
+            }
+            return userData;
         }
     }
 }

@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "iLla/EKz9IEj6qX9cuOiucRzoqElAk9MF8iZty5ikbsPuJiCvGW4HhSObaITLwLuIaibUclnQXr1khExUWB9iw==",
+  "dgSpecHash": "j49qNfd+wKWOiswAirlpu1+OSIOtl5xmoWdUIGvRRDJp82uUx8S3kAJLx9EjQJ7XTVoXfjq0ByEMugmWOE8aXg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sujit Sahukar\\Desktop\\InternalApp\\ConsoleApp\\ConsoleApp.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Sujit Sahukar\\Desktop\\InternalApp\\Internal-app-project\\ConsoleApp\\ConsoleApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sujit Sahukar\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Sujit Sahukar\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

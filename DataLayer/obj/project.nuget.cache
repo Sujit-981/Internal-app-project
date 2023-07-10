@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "WvavAU3u490VE7nKsrxM5JIQXZM+l8AtZetYDfCm0P6TsrmWbDK+iVQLtCRhW3zwW6tgnVlp/1Iouv5inlngqw==",
+  "dgSpecHash": "0Rs7PNuXPGGE58RCLSFqhO20SE8BPHYVE7XUFUzo0b2nnx5Qjmq5xEkGueuMYNlCwrLlhhHuyb2XJeM6Qmralg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sujit Sahukar\\Desktop\\InternalApp\\DataLayer\\DataLayer.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Sujit Sahukar\\Desktop\\InternalApp\\Internal-app-project\\DataLayer\\DataLayer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sujit Sahukar\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Sujit Sahukar\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

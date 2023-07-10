@@ -13,7 +13,8 @@ namespace ConsoleApp
     {
         register = 1,
         login = 2,
-        forgotPassword = 3,
-        exit = 4
+        data = 3,
+        forgotPassword = 4,
+        exit = 5
     }
 }

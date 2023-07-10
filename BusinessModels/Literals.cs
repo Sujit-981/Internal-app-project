@@ -9,7 +9,7 @@ namespace BusinessModels
     public static class Literals
     {
         //Switch case prompt literals
-        public static string mainSwitch = "Enter your choice and proceed:\n1 for Registration\n2 for Login\n3 for Forgot Password\n4 for exiting the application";
+        public static string mainSwitch = "Enter your choice and proceed:\n1 for Registration\n2 for Login\n3 for data retrival\n4 for forgot password\n5 for exiting the application";
         public static string line = "\n-----------------------------------------------------------------------------------------------";
         public static string inValidChoice = "The choice you have entered is wrong, Please enter a valid choice";
         public static string exit = "You are exiting the application";
@@ -31,6 +31,15 @@ namespace BusinessModels
         public static string tries = "You have {0} tries left, try again: ";
         public static string logOutOrExit = "If you want to logout type any string and hit enter, if you want to exit type 'e' and hit enter: ";
         public static string limitReached = "You are at your password limit.........returning to home page";
+
+
+        //getdata literals
+        public static string dataUserName = "To get your details enter your username: ";
+        public static string dataPassword = "Enter your password: ";
+        public static string dataDoesNotExist = "The entered user does not exist";
+        public static string dataEmailId = "Your registered email id is: ";
+        public static string dataPhoneNumber = "Your registered phone number is: ";
+
 
         //forgot password literals
         public static string forgotPasswordUserName = "Enter your registered user name for verification: ";

@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "cBDfubIF+gl8gr/zC4OmJlXJ4uYKH5wq52twT+CQxpEexGhU9HWHWLCUnVhOnIJMS7v3+Wz4x9jH/r6AOcoWkg==",
+  "dgSpecHash": "/6UZ5WSKHCrwtoAiesIaCpcde7dCYqjBmOMEzaMDQhEFTranikKEzqYfhGBuRfP3fogZ1ljivrHesY97yU7Exg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sujit Sahukar\\Desktop\\InternalApp\\BusinessModels\\BusinessModels.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Sujit Sahukar\\Desktop\\InternalApp\\Internal-app-project\\BusinessModels\\BusinessModels.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sujit Sahukar\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Sujit Sahukar\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

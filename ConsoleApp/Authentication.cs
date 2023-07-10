@@ -1,7 +1,6 @@
 ﻿using BusinessModels;
 using BusinessLayer;
 
-
 namespace ConsoleApp
 {
     /// <summary>
@@ -162,7 +161,6 @@ namespace ConsoleApp
                 }
                 else
                 {
-
                     Console.Write(Literals.tries, i);
                 }
             }
@@ -170,7 +168,29 @@ namespace ConsoleApp
             {
                 Console.WriteLine(Literals.limitReached);
             }
+        }
 
+        /// <summary>
+        /// This method will call business layer method to get the user data
+        /// </summary>
+        public void getData()
+        {
+            User getDataOfUser = new User();
+            BLAuthentication BLAuth = new BLAuthentication();
+
+            Console.Write(Literals.dataUserName);
+            getDataOfUser.userName = Console.ReadLine();
+            Console.Write(Literals.dataPassword);
+            getDataOfUser.password = Console.ReadLine();
+
+            User getUser = BLAuth.GetUserData(getDataOfUser);
+            if (getUser == null)
+            {
+                Console.WriteLine(Literals.dataDoesNotExist);
+                return;
+            }
+            Console.WriteLine(Literals.dataEmailId + getUser.emailId);
+            Console.WriteLine(Literals.dataPhoneNumber + getUser.phoneNo);
         }
 
         /// <summary>
@@ -205,7 +225,5 @@ namespace ConsoleApp
             }
             Console.WriteLine(Literals.notUpdated);
         }
-
-
     }
 }

@@ -16,9 +16,9 @@ namespace ConsoleApp
         public static void Main(string[] args)
         {
             int choice;
-            
+
             Authentication auth = new Authentication();
-                       
+
             while (true)
             {
                 Console.WriteLine(Literals.mainSwitch);
@@ -36,8 +36,12 @@ namespace ConsoleApp
                         auth.UserLogIn();
                         Console.WriteLine(Literals.line);
                         break;
+                    case Menu.data:
+                        auth.getData();
+                        Console.WriteLine(Literals.line);
+                        break;
                     case Menu.forgotPassword:
-                        auth.ForgotPassword();                                    
+                        auth.ForgotPassword();
                         Console.WriteLine(Literals.line);
                         break;
                     case Menu.exit:
